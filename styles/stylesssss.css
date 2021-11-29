@@ -1,0 +1,62 @@
+body{
+    background-color: lightyellow;
+
+}
+div{
+    background-color: lightpink;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border-width: 2.5px;
+    padding: 40px;
+    margin-left: 500px; margin-right: 500px; margin-top: 250px; margin-bottom: 500px;
+    text-align: right; 
+    vertical-align: text-top;   
+
+}
+p{
+    position: absolute;
+    right: 5px;
+    top: -5px;
+}
+.d1{
+
+    top: 20px;
+    z-index: 10;
+    transform: rotate(-30deg);
+    font-size: 150%;
+    text-align: right; 
+
+}
+.uno{
+    top: 1px;
+    transform: rotate(-20deg);
+    z-index: 9;
+    text-align: right;
+    left: 60px;
+}
+.d2{
+    top: -20px;
+    transform: rotate(-15deg);
+    z-index: 8;
+    text-align: right;
+    left: 120px;
+}
+.dos{
+    top: -30px;
+    transform: rotate(-10deg);
+    z-index: 7;
+    text-align: right;
+    left: 180px;
+} 
+
+.d3{
+    top:-30px;
+    transform: rotate(-5deg);
+    z-index: 6;
+    text-align: right;
+    left: 240px;
+}
+
